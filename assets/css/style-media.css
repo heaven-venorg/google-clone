@@ -1,17 +1,17 @@
 @media (max-width: 600px) {
   nav {
-    flex-direction: row; /* Mengubah orientasi nav menjadi kolom */
-    align-items: center; /* Mengatur alignment menjadi flex-start */
-    gap: 10px; /* Mengurangi jarak antar elemen */
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
   }
 
   .searchbar {
-    flex-direction: row; /* Mengubah orientasi searchbar menjadi kolom */
-    width: 90%; /* Mengatur lebar menjadi 100% */
+    flex-direction: row;
+    width: 90%;
   }
 
   .myinput {
-    width: 100%; /* Mengatur input untuk mengisi ruang yang tersedia */
+    width: 100%;
   }
 
   .menuclick {
