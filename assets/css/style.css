@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #282a2c;
+}
+
+header {
+  display: inline-block;
+  width: 100vw;
+  padding: 15px 15px;
+}
+
+nav {
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  display: flex;
+  font-size: 13px;
+}
+
+.size-24 {
+  font-size: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+main {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.searchbar {
+  display: flex;
+  flex-direction: row;
+  width: 10000px auto;
+  padding: 13px 20px;
+  background-color: #4d5156;
+  align-items: center;
+  gap: 20px;
+  border-radius: 50px;
+}
+
+.myinput {
+  background-color: #4d5156;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #ffffff;
+  width: 500px;
+}
+
+.hidden {
+  display: none;
+}
+
+.menuclick {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.mnclick {
+  background-color: #313335;
+  padding: 20px 16px;
+  height: 27px;
+  border: 1px solid #313335;
+  border-radius: 7px;
+  align-items: center;
+  width: auto;
+  display: inline-flex;
+  font-size: 14px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.mnclick:hover {
+  border: 1px solid #c4c7c5;
+}
